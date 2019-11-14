@@ -1,0 +1,1207 @@
+{
+    "type": "bundle",
+    "id": "bundle--332b6c27-7d2b-4163-baea-65cf5e9bb61f",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "campaign",
+            "id": "campaign--4d62235d-24e6-4df6-80d6-c4c837cf9017",
+            "created": "2019-11-08T16:45:16.900Z",
+            "modified": "2019-11-08T16:45:16.900Z",
+            "name": "Year 2019",
+            "description": "Emotet campaign",
+            "first_seen": "2019-10-05T00:00:00Z",
+            "last_seen": "2019-10-15T00:00:00Z"
+        },
+        {
+            "type": "report",
+            "id": "report--aa7fa0a3-614e-4788-963d-9d762438784c",
+            "created": "2019-11-08T16:45:17.486Z",
+            "modified": "2019-11-08T16:45:17.486Z",
+            "name": "Year 2019",
+            "published": "2019-11-08T16:45:17.486146Z",
+            "object_refs": [
+                "campaign--4d62235d-24e6-4df6-80d6-c4c837cf9017",
+                "indicator--80e3d80c-d8ac-406f-b595-9c8e18aa963e",
+                "indicator--f4e8b311-12eb-44cd-9a23-259243c2d1eb",
+                "indicator--7bb92c59-797b-4280-830e-84f719a04503",
+                "indicator--fe72c434-2b93-4c6a-9e9b-a15a77a6d2a1",
+                "indicator--5de4b247-4878-439c-b482-dead4f18d542",
+                "indicator--439e17fa-231f-47bc-a2d2-232f9eeff4df",
+                "indicator--308b8fe4-c4fa-49b3-ae1e-e87d73148190",
+                "indicator--1b12a230-fa3e-426b-9b79-51f2010b27fe",
+                "indicator--8b82b686-d72b-491c-b71f-69dd0950f0ae",
+                "indicator--dcea8457-f22d-40c5-a709-c6dfe26ae75e",
+                "indicator--49700ba3-09df-436e-a4a1-43f8a83eb230",
+                "indicator--e75572a5-ef1a-4468-bd31-7cb0cf2e5037",
+                "indicator--486fd3e6-972a-4313-b258-c71cbcde9db2",
+                "indicator--cfdd5902-eed2-460a-99dc-203c1105b69d",
+                "indicator--b91a99df-a69c-45e1-8114-43710d66f21a",
+                "attack-pattern--c20006cd-3e7b-4848-833f-7b97123341ac",
+                "attack-pattern--760d772b-0ba9-4334-9fc8-c9df5ace4e5c",
+                "attack-pattern--59ce3b8c-9939-4457-9e13-6457d6c7002a",
+                "attack-pattern--a5dd7bd5-b683-4ca6-9a78-e0384490aebd",
+                "attack-pattern--b9f6d3b9-1cfa-4116-8687-dc3ff5a0275e",
+                "attack-pattern--986aca8c-40b7-4707-a0d5-59433ceb6e5f",
+                "attack-pattern--98a42fd7-915d-4fe0-99d1-500bfd006773",
+                "attack-pattern--a5114018-1b48-4d0f-b780-27cb94319d7e",
+                "attack-pattern--046bc11f-394f-4a4a-8166-3c41a8bfc5cf",
+                "attack-pattern--be360ce4-6bb5-4b19-b437-2d8088ab4c10",
+                "attack-pattern--bbfaacbb-2b36-4ef5-b679-49b061dd3c49",
+                "attack-pattern--0573b498-41cd-4b96-9f04-e94606cc995e",
+                "relationship--f8ebe3da-8523-46b3-84c9-b154a97210bb",
+                "relationship--e8cc7d0f-e51b-4c76-9c04-15a3dcea3df4",
+                "relationship--d5e71d19-99ce-4678-bf10-abc1ab950de5",
+                "relationship--0d4317ed-3607-4e15-8991-657f872a67b3",
+                "relationship--b5200b7b-8999-4e4e-bcc5-1a3621f346a7",
+                "relationship--9f941719-a5a3-4d95-a649-cb08eb248ccf",
+                "relationship--8bd34f62-c1dc-4727-a44e-86f890ccecd4",
+                "relationship--faaa6dc0-72c2-4840-8784-0828e70ab3db",
+                "relationship--b4a3c7ef-4333-44f6-b99f-1d9359d25e92",
+                "relationship--382440cc-adf1-4e88-9e30-9a3036240e7a",
+                "relationship--9349ea21-38e5-4e0b-9897-0a5077d20308",
+                "relationship--737ff229-3f26-44b8-8075-3bc3c540f818",
+                "relationship--8d04b5a3-2123-4e5b-9192-5f1028e1fa28",
+                "relationship--13d77797-a7bf-430b-9d51-04b1f2612c22",
+                "relationship--4e4d22e0-786c-4dde-9aab-4a15957c6a3b",
+                "relationship--ed83034c-b6b9-43bf-880f-aa37621e2ef2",
+                "relationship--ffcb3354-544d-4f1f-8248-08cb171fdd9b",
+                "relationship--668f8598-68be-4168-81cc-da36f61b2aed",
+                "relationship--ec8d66a8-7e1e-4003-9714-cdb8c948d9aa",
+                "relationship--73267588-83b6-44fb-809e-f6a938bc131d",
+                "relationship--d7b0095b-a58a-4759-b728-876712991a2c",
+                "relationship--d73e0877-bc11-4f4d-8bed-76746be4360c",
+                "relationship--0b2f7249-6d90-465c-866f-0a7ba8eb10e2",
+                "relationship--351a9266-a778-4ab3-96d8-9930d5b9428c",
+                "relationship--4ba89ed8-78ca-4d94-a553-b63d16c0fb37",
+                "relationship--258da19f-9e2f-4161-9fac-9206d1f4f75d",
+                "relationship--b633f7c7-0cb0-495b-88dd-5c5224444039",
+                "relationship--28a864a0-98c5-4312-be98-459c4af972b4",
+                "relationship--d1826df5-66e3-436c-9e7f-2659c8c166d2",
+                "relationship--b60ba2de-fa78-4412-970a-eda5f33261d0",
+                "relationship--7790e8e7-a5bd-46be-9582-4830f45287c5",
+                "relationship--11c17858-815a-4659-af1e-18b46491d187",
+                "relationship--8518477c-4df6-4c33-a125-9539913d1b29",
+                "relationship--707e548e-8903-4c80-9fef-f27863e3d26a",
+                "relationship--911c89f2-0252-499e-b9fa-1de8d83a1b69",
+                "relationship--7aacc7e4-5b0c-49ed-873c-8fe199c91a0e",
+                "relationship--1b2ebe9e-5f36-43bc-8886-f0c4ad410110",
+                "relationship--65a44a25-d196-44ff-bcf4-92be392b1efe",
+                "relationship--6806dbe7-4c00-4eaf-9ec4-f34955324fc4",
+                "relationship--05d0f8ca-ca52-4493-8473-cd19b3a79ca8",
+                "relationship--f20c5c22-1ccb-4848-9687-64784c9e2386",
+                "relationship--f80769ce-f840-4094-803a-4d8b61f50e24",
+                "relationship--ee694b2d-c2dd-4a80-a2f8-8eb497d72a1a"
+            ],
+            "labels": [
+                "campagin"
+            ]
+        },
+        {
+            "type": "report",
+            "id": "report--2eed14d7-c5ba-4596-a997-29550706c83a",
+            "created": "2019-11-08T16:45:17.486Z",
+            "modified": "2019-11-08T16:45:17.486Z",
+            "name": "Emotet",
+            "description": "Emotet was first discovered in 2014 and started out as a \u201csimple\u201d banking Trojan.\nSimple in quotes, because overtime, Emotet has evolved into a botnet as well and added modularity which has made it not only one of the most destructive, but prevalent and dangerous threats of recent memory.",
+            "published": "2019-11-08T16:45:17.486881Z",
+            "object_refs": [
+                "report--aa7fa0a3-614e-4788-963d-9d762438784c",
+                "intrusion-set--e1b3091a-125f-4c53-82b7-955cacb904e6"
+            ],
+            "labels": [
+                "intrusion-set"
+            ]
+        },
+        {
+            "type": "intrusion-set",
+            "id": "intrusion-set--e1b3091a-125f-4c53-82b7-955cacb904e6",
+            "created": "2019-11-08T16:45:16.897Z",
+            "modified": "2019-11-08T16:45:16.897Z",
+            "name": "Emotet"
+        },
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--c20006cd-3e7b-4848-833f-7b97123341ac",
+            "created": "2019-11-08T16:45:17.070Z",
+            "modified": "2019-11-08T16:45:17.070Z",
+            "name": "Spearphishing Attachment",
+            "description": "Spearphishing attachment is a specific variant of spearphishing. Spearphishing attachment is different from other forms of spearphishing in that it employs the use of malware attached to an email. All forms of spearphishing are electronically delivered social engineering targeted at a specific individual, company, or industry. In this scenario, adversaries attach a file to the spearphishing email and usually rely upon [User Execution](https://attack.mitre.org/techniques/T1204) to gain execution.\n\nThere are many options for the attachment such as Microsoft Office documents, executables, PDFs, or archived files. Upon opening the attachment (and potentially clicking past protections), the adversary's payload exploits a vulnerability or directly executes on the user's system. The text of the spearphishing email usually tries to give a plausible reason why the file should be opened, and may explain how to bypass system protections in order to do so. The email may also contain instructions on how to decrypt an attachment, such as a zip file password, in order to evade email boundary defenses. Adversaries frequently manipulate file extensions and icons in order to make attached executables appear to be document files, or files exploiting one application appear to be a file for a different one.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "initial-access"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1193",
+                    "external_id": "T1193"
+                },
+                {
+                    "source_name": "capec",
+                    "url": "https://capec.mitre.org/data/definitions/163.html",
+                    "external_id": "CAPEC-163"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--760d772b-0ba9-4334-9fc8-c9df5ace4e5c",
+            "created": "2019-11-08T16:45:17.113Z",
+            "modified": "2019-11-08T16:45:17.113Z",
+            "name": "PowerShell",
+            "description": "PowerShell is a powerful interactive command-line interface and scripting environment included in the Windows operating system. (Citation: TechNet PowerShell) Adversaries can use PowerShell to perform a number of actions, including discovery of information and execution of code. Examples include the Start-Process cmdlet which can be used to run an executable and the Invoke-Command cmdlet which runs a command locally or on a remote computer. \n\nPowerShell may also be used to download and run executables from the Internet, which can be executed from disk or in memory without touching disk.\n\nAdministrator permissions are required to use PowerShell to connect to remote systems.\n\nA number of PowerShell-based offensive testing tools are available, including [Empire](https://attack.mitre.org/software/S0363),  PowerSploit, (Citation: Powersploit) and PSAttack. (Citation: Github PSAttack)\n\nPowerShell commands/scripts can also be executed without directly invoking the powershell.exe binary through interfaces to PowerShell's underlying System.Management.Automation assembly exposed through the .NET framework and Windows Common Language Interface (CLI). (Citation: Sixdub PowerPick Jan 2016)(Citation: SilentBreak Offensive PS Dec 2015) (Citation: Microsoft PSfromCsharp APR 2014)",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "execution"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1086",
+                    "external_id": "T1086"
+                },
+                {
+                    "source_name": "TechNet PowerShell",
+                    "description": "Microsoft. (n.d.). Windows PowerShell Scripting. Retrieved April 28, 2016.",
+                    "url": "https://technet.microsoft.com/en-us/scriptcenter/dd742419.aspx"
+                },
+                {
+                    "source_name": "Powersploit",
+                    "description": "PowerSploit. (n.d.). Retrieved December 4, 2014.",
+                    "url": "https://github.com/mattifestation/PowerSploit"
+                },
+                {
+                    "source_name": "Github PSAttack",
+                    "description": "Haight, J. (2016, April 21). PS>Attack. Retrieved June 1, 2016.",
+                    "url": "https://github.com/jaredhaight/PSAttack"
+                },
+                {
+                    "source_name": "Sixdub PowerPick Jan 2016",
+                    "description": "Warner, J.. (2015, January 6). Inexorable PowerShell \u2013 A Red Teamer\u2019s Tale of Overcoming Simple AppLocker Policies. Retrieved December 8, 2018.",
+                    "url": "http://www.sixdub.net/?p=367"
+                },
+                {
+                    "source_name": "SilentBreak Offensive PS Dec 2015",
+                    "description": "Christensen, L.. (2015, December 28). The Evolution of Offensive PowerShell Invocation. Retrieved December 8, 2018.",
+                    "url": "https://silentbreaksecurity.com/powershell-jobs-without-powershell-exe/"
+                },
+                {
+                    "source_name": "Microsoft PSfromCsharp APR 2014",
+                    "description": "Babinec, K. (2014, April 28). Executing PowerShell scripts from C#. Retrieved April 22, 2019.",
+                    "url": "https://blogs.msdn.microsoft.com/kebab/2014/04/28/executing-powershell-scripts-from-c/"
+                },
+                {
+                    "source_name": "Malware Archaeology PowerShell Cheat Sheet",
+                    "description": "Malware Archaeology. (2016, June). WINDOWS POWERSHELL LOGGING CHEAT SHEET - Win 7/Win 2008 or later. Retrieved June 24, 2016.",
+                    "url": "http://www.malwarearchaeology.com/s/Windows-PowerShell-Logging-Cheat-Sheet-ver-June-2016-v2.pdf"
+                },
+                {
+                    "source_name": "FireEye PowerShell Logging 2016",
+                    "description": "Dunwoody, M. (2016, February 11). GREATER VISIBILITY THROUGH POWERSHELL LOGGING. Retrieved February 16, 2016.",
+                    "url": "https://www.fireeye.com/blog/threat-research/2016/02/greater_visibilityt.html"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--59ce3b8c-9939-4457-9e13-6457d6c7002a",
+            "created": "2019-11-08T16:45:17.157Z",
+            "modified": "2019-11-08T16:45:17.157Z",
+            "name": "User Execution",
+            "description": "An adversary may rely upon specific actions by a user in order to gain execution. This may be direct code execution, such as when a user opens a malicious executable delivered via [Spearphishing Attachment](https://attack.mitre.org/techniques/T1193) with the icon and apparent extension of a document file. It also may lead to other execution techniques, such as when a user clicks on a link delivered via [Spearphishing Link](https://attack.mitre.org/techniques/T1192) that leads to exploitation of a browser or application vulnerability via [Exploitation for Client Execution](https://attack.mitre.org/techniques/T1203). While User Execution frequently occurs shortly after Initial Access it may occur at other phases of an intrusion, such as when an adversary places a file in a shared directory or on a user's desktop hoping that a user will click on it.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "execution"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1204",
+                    "external_id": "T1204"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--a5dd7bd5-b683-4ca6-9a78-e0384490aebd",
+            "created": "2019-11-08T16:45:17.191Z",
+            "modified": "2019-11-08T16:45:17.191Z",
+            "name": "Scripting",
+            "description": "Adversaries may use scripts to aid in operations and perform multiple actions that would otherwise be manual. Scripting is useful for speeding up operational tasks and reducing the time required to gain access to critical resources. Some scripting languages may be used to bypass process monitoring mechanisms by directly interacting with the operating system at an API level instead of calling other programs. Common scripting languages for Windows include VBScript and PowerShell but could also be in the form of command-line batch scripts.\n\nScripts can be embedded inside Office documents as macros that can be set to execute when files used in [Spearphishing Attachment](https://attack.mitre.org/techniques/T1193) and other types of spearphishing are opened. Malicious embedded macros are an alternative means of execution than software exploitation through [Exploitation for Client Execution](https://attack.mitre.org/techniques/T1203), where adversaries will rely on macros being allowed or that the user will accept to activate them.\n\nMany popular offensive frameworks exist which use forms of scripting for security testers and adversaries alike. Metasploit (Citation: Metasploit_Ref), Veil (Citation: Veil_Ref), and PowerSploit (Citation: Powersploit) are three examples that are popular among penetration testers for exploit and post-compromise operations and include many features for evading defenses. Some adversaries are known to use PowerShell. (Citation: Alperovitch 2014)",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1064",
+                    "external_id": "T1064"
+                },
+                {
+                    "source_name": "Metasploit_Ref",
+                    "description": "Metasploit. (n.d.). Retrieved December 4, 2014.",
+                    "url": "http://www.metasploit.com"
+                },
+                {
+                    "source_name": "Veil_Ref",
+                    "description": "Veil Framework. (n.d.). Retrieved December 4, 2014.",
+                    "url": "https://www.veil-framework.com/framework/"
+                },
+                {
+                    "source_name": "Powersploit",
+                    "description": "PowerSploit. (n.d.). Retrieved December 4, 2014.",
+                    "url": "https://github.com/mattifestation/PowerSploit"
+                },
+                {
+                    "source_name": "Alperovitch 2014",
+                    "description": "Alperovitch, D. (2014, July 7). Deep in Thought: Chinese Targeting of National Security Think Tanks. Retrieved November 12, 2014.",
+                    "url": "https://blog.crowdstrike.com/deep-thought-chinese-targeting-national-security-think-tanks/"
+                },
+                {
+                    "source_name": "Uperesia Malicious Office Documents",
+                    "description": "Felix. (2016, September). Analyzing Malicious Office Documents. Retrieved April 11, 2018.",
+                    "url": "https://www.uperesia.com/analyzing-malicious-office-documents"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--b9f6d3b9-1cfa-4116-8687-dc3ff5a0275e",
+            "created": "2019-11-08T16:45:17.221Z",
+            "modified": "2019-11-08T16:45:17.221Z",
+            "name": "Remote File Copy",
+            "description": "Files may be copied from one system to another to stage adversary tools or other files over the course of an operation. Files may be copied from an external adversary-controlled system through the Command and Control channel to bring tools into the victim network or through alternate protocols with another tool such as [FTP](https://attack.mitre.org/software/S0095). Files can also be copied over on Mac and Linux with native tools like scp, rsync, and sftp.\n\nAdversaries may also copy files laterally between internal victim systems to support Lateral Movement with remote Execution using inherent file sharing protocols such as file sharing over SMB to connected network shares or with authenticated connections with [Windows Admin Shares](https://attack.mitre.org/techniques/T1077) or [Remote Desktop Protocol](https://attack.mitre.org/techniques/T1076).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "command-and-control"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1105",
+                    "external_id": "T1105"
+                },
+                {
+                    "source_name": "University of Birmingham C2",
+                    "description": "Gardiner, J.,  Cova, M., Nagaraja, S. (2014, February). Command & Control Understanding, Denying and Detecting. Retrieved April 20, 2016.",
+                    "url": "https://arxiv.org/ftp/arxiv/papers/1408/1408.1136.pdf"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--986aca8c-40b7-4707-a0d5-59433ceb6e5f",
+            "created": "2019-11-08T16:45:17.250Z",
+            "modified": "2019-11-08T16:45:17.250Z",
+            "name": "Commonly Used Port",
+            "description": "Adversaries may communicate over a commonly used port to bypass firewalls or network detection systems and to blend with normal network activity to avoid more detailed inspection. They may use commonly open ports such as\n\n* TCP:80 (HTTP)\n* TCP:443 (HTTPS)\n* TCP:25 (SMTP)\n* TCP/UDP:53 (DNS)\n\nThey may use the protocol associated with the port or a completely different protocol. \n\nFor connections that occur internally within an enclave (such as those between a proxy or pivot node and other nodes), examples of common ports are \n\n* TCP/UDP:135 (RPC)\n* TCP/UDP:22 (SSH)\n* TCP/UDP:3389 (RDP)",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "command-and-control"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1043",
+                    "external_id": "T1043"
+                },
+                {
+                    "source_name": "University of Birmingham C2",
+                    "description": "Gardiner, J.,  Cova, M., Nagaraja, S. (2014, February). Command & Control Understanding, Denying and Detecting. Retrieved April 20, 2016.",
+                    "url": "https://arxiv.org/ftp/arxiv/papers/1408/1408.1136.pdf"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--98a42fd7-915d-4fe0-99d1-500bfd006773",
+            "created": "2019-11-08T16:45:17.279Z",
+            "modified": "2019-11-08T16:45:17.279Z",
+            "name": "Standard Application Layer Protocol",
+            "description": "Adversaries may communicate using a common, standardized application layer protocol such as HTTP, HTTPS, SMTP, or DNS to avoid detection by blending in with existing traffic. Commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server.\n\nFor connections that occur internally within an enclave (such as those between a proxy or pivot node and other nodes), commonly used protocols are RPC, SSH, or RDP.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "command-and-control"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1071",
+                    "external_id": "T1071"
+                },
+                {
+                    "source_name": "University of Birmingham C2",
+                    "description": "Gardiner, J.,  Cova, M., Nagaraja, S. (2014, February). Command & Control Understanding, Denying and Detecting. Retrieved April 20, 2016.",
+                    "url": "https://arxiv.org/ftp/arxiv/papers/1408/1408.1136.pdf"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--a5114018-1b48-4d0f-b780-27cb94319d7e",
+            "created": "2019-11-08T16:45:17.313Z",
+            "modified": "2019-11-08T16:45:17.313Z",
+            "name": "Service Execution",
+            "description": "Adversaries may execute a binary, command, or script via a method that interacts with Windows services, such as the Service Control Manager. This can be done by either creating a new service or modifying an existing service. This technique is the execution used in conjunction with [New Service](https://attack.mitre.org/techniques/T1050) and [Modify Existing Service](https://attack.mitre.org/techniques/T1031) during service persistence or privilege escalation.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "execution"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1035",
+                    "external_id": "T1035"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--046bc11f-394f-4a4a-8166-3c41a8bfc5cf",
+            "created": "2019-11-08T16:45:17.344Z",
+            "modified": "2019-11-08T16:45:17.344Z",
+            "name": "New Service",
+            "description": "When operating systems boot up, they can start programs or applications called services that perform background system functions. (Citation: TechNet Services) A service's configuration information, including the file path to the service's executable, is stored in the Windows Registry. \n\nAdversaries may install a new service that can be configured to execute at startup by using utilities to interact with services or by directly modifying the Registry. The service name may be disguised by using a name from a related operating system or benign software with [Masquerading](https://attack.mitre.org/techniques/T1036). Services may be created with administrator privileges but are executed under SYSTEM privileges, so an adversary may also use a service to escalate privileges from administrator to SYSTEM. Adversaries may also directly start services through [Service Execution](https://attack.mitre.org/techniques/T1035).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "persistence"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1050",
+                    "external_id": "T1050"
+                },
+                {
+                    "source_name": "capec",
+                    "url": "https://capec.mitre.org/data/definitions/550.html",
+                    "external_id": "CAPEC-550"
+                },
+                {
+                    "source_name": "TechNet Services",
+                    "description": "Microsoft. (n.d.). Services. Retrieved June 7, 2016.",
+                    "url": "https://technet.microsoft.com/en-us/library/cc772408.aspx"
+                },
+                {
+                    "source_name": "TechNet Autoruns",
+                    "description": "Russinovich, M. (2016, January 4). Autoruns for Windows v13.51. Retrieved June 6, 2016.",
+                    "url": "https://technet.microsoft.com/en-us/sysinternals/bb963902"
+                },
+                {
+                    "source_name": "Microsoft 4697 APR 2017",
+                    "description": "Miroshnikov, A. & Hall, J. (2017, April 18). 4697(S): A service was installed in the system. Retrieved August 7, 2018.",
+                    "url": "https://docs.microsoft.com/windows/security/threat-protection/auditing/event-4697"
+                },
+                {
+                    "source_name": "Microsoft Windows Event Forwarding FEB 2018",
+                    "description": "Hardy, T. & Hall, J. (2018, February 15). Use Windows Event Forwarding to help with intrusion detection. Retrieved August 7, 2018.",
+                    "url": "https://docs.microsoft.com/windows/security/threat-protection/use-windows-event-forwarding-to-assist-in-intrusion-detection"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--be360ce4-6bb5-4b19-b437-2d8088ab4c10",
+            "created": "2019-11-08T16:45:17.373Z",
+            "modified": "2019-11-08T16:45:17.373Z",
+            "name": "Masquerading",
+            "description": "Masquerading occurs when the name or location of an executable, legitimate or malicious, is manipulated or abused for the sake of evading defenses and observation. Several different variations of this technique have been observed.\n\nOne variant is for an executable to be placed in a commonly trusted directory or given the name of a legitimate, trusted program. Alternatively, the filename given may be a close approximation of legitimate programs or something innocuous. An example of this is when a common system utility or program is moved and renamed to avoid detection based on its usage.(Citation: FireEye APT10 Sept 2018) This is done to bypass tools that trust executables by relying on file name or path, as well as to deceive defenders and system administrators into thinking a file is benign by associating the name with something that is thought to be legitimate.\n\nA third variant uses the right-to-left override (RTLO or RLO) character (U+202E) as a means of tricking a user into executing what they think is a benign file type but is actually executable code. RTLO is a non-printing character that causes the text that follows it to be displayed in reverse.(Citation: Infosecinstitute RTLO Technique) For example, a Windows screensaver file named\u00a0<code>March 25 \\u202Excod.scr</code> will display as <code>March 25 rcs.docx</code>. A JavaScript file named <code>photo_high_re\\u202Egnp.js</code> will be displayed as <code>photo_high_resj.png</code>. A common use of this technique is with spearphishing attachments since it can trick both end users and defenders if they are not aware of how their tools display and render the RTLO character. Use of the RTLO character has been seen in many targeted intrusion attempts and criminal activity.(Citation: Trend Micro PLEAD RTLO)(Citation: Kaspersky RTLO Cyber Crime) RTLO can be used in the Windows Registry as well, where regedit.exe displays the reversed characters but the command line tool reg.exe does not by default.\u00a0\n\n### Windows\nIn another variation of this technique, an adversary may use a renamed copy of a legitimate utility, such as rundll32.exe. (Citation: Endgame Masquerade Ball) An alternative case occurs when a legitimate utility is moved to a different directory and also renamed to avoid detections based on system utilities executing from non-standard paths. (Citation: F-Secure CozyDuke)\n\nAn example of abuse of trusted locations in Windows would be the <code>C:\\Windows\\System32</code> directory. Examples of trusted binary names that can be given to malicious binares include \"explorer.exe\" and \"svchost.exe\".\n\n### Linux\nAnother variation of this technique includes malicious binaries changing the name of their running process to that of a trusted or benign process, after they have been launched as opposed to before. (Citation: Remaiten)\n\nAn example of abuse of trusted locations in Linux  would be the <code>/bin</code> directory. Examples of trusted binary names that can be given to malicious binares include \"rsyncd\" and \"dbus-inotifier\". (Citation: Fysbis Palo Alto Analysis)  (Citation: Fysbis Dr Web Analysis)",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1036",
+                    "external_id": "T1036"
+                },
+                {
+                    "source_name": "FireEye APT10 Sept 2018",
+                    "description": "Matsuda, A., Muhammad I. (2018, September 13). APT10 Targeting Japanese Corporations Using Updated TTPs. Retrieved September 17, 2018.",
+                    "url": "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html"
+                },
+                {
+                    "source_name": "Infosecinstitute RTLO Technique",
+                    "description": "Security Ninja. (2015, April 16). Spoof Using Right to Left Override (RTLO) Technique. Retrieved April 22, 2019.",
+                    "url": "https://resources.infosecinstitute.com/spoof-using-right-to-left-override-rtlo-technique-2/"
+                },
+                {
+                    "source_name": "Trend Micro PLEAD RTLO",
+                    "description": "Alintanahin, K.. (2014, May 23). PLEAD Targeted Attacks Against Taiwanese Government Agencies. Retrieved April 22, 2019.",
+                    "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/plead-targeted-attacks-against-taiwanese-government-agencies-2/"
+                },
+                {
+                    "source_name": "Kaspersky RTLO Cyber Crime",
+                    "description": "Firsh, A.. (2018, February 13). Zero-day vulnerability in Telegram - Cybercriminals exploited Telegram flaw to launch multipurpose attacks. Retrieved April 22, 2019.",
+                    "url": "https://securelist.com/zero-day-vulnerability-in-telegram/83800/"
+                },
+                {
+                    "source_name": "Endgame Masquerade Ball",
+                    "description": "Ewing, P. (2016, October 31). How to Hunt: The Masquerade Ball. Retrieved October 31, 2016.",
+                    "url": "https://www.endgame.com/blog/how-hunt-masquerade-ball"
+                },
+                {
+                    "source_name": "F-Secure CozyDuke",
+                    "description": "F-Secure Labs. (2015, April 22). CozyDuke: Malware Analysis. Retrieved December 10, 2015.",
+                    "url": "https://www.f-secure.com/documents/996508/1030745/CozyDuke"
+                },
+                {
+                    "source_name": "Remaiten",
+                    "description": "Michal Malik AND Marc-Etienne M.L\u00e9veill\u00e9. (2016, March 30). Meet Remaiten \u2013 a Linux bot on steroids targeting routers and potentially other IoT devices. Retrieved September 7, 2017.",
+                    "url": "https://www.welivesecurity.com/2016/03/30/meet-remaiten-a-linux-bot-on-steroids-targeting-routers-and-potentially-other-iot-devices/"
+                },
+                {
+                    "source_name": "Fysbis Palo Alto Analysis",
+                    "description": "Bryan Lee and Rob Downs. (2016, February 12). A Look Into Fysbis: Sofacy\u2019s Linux Backdoor. Retrieved September 10, 2017.",
+                    "url": "https://researchcenter.paloaltonetworks.com/2016/02/a-look-into-fysbis-sofacys-linux-backdoor/"
+                },
+                {
+                    "source_name": "Fysbis Dr Web Analysis",
+                    "description": "Doctor Web. (2014, November 21). Linux.BackDoor.Fysbis.1. Retrieved December 7, 2017.",
+                    "url": "https://vms.drweb.com/virus/?i=4276269"
+                },
+                {
+                    "source_name": "Twitter ItsReallyNick Masquerading Update",
+                    "description": "Carr, N.. (2018, October 25). Nick Carr Status Update Masquerading. Retrieved April 22, 2019.",
+                    "url": "https://twitter.com/ItsReallyNick/status/1055321652777619457"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--bbfaacbb-2b36-4ef5-b679-49b061dd3c49",
+            "created": "2019-11-08T16:45:17.404Z",
+            "modified": "2019-11-08T16:45:17.404Z",
+            "name": "Process Injection",
+            "description": "Process injection is a method of executing arbitrary code in the address space of a separate live process. Running code in the context of another process may allow access to the process's memory, system/network resources, and possibly elevated privileges. Execution via process injection may also evade detection from security products since the execution is masked under a legitimate process.\n\n### Windows\n\nThere are multiple approaches to injecting code into a live process. Windows implementations include: (Citation: Endgame Process Injection July 2017)\n\n* **Dynamic-link library (DLL) injection** involves writing the path to a malicious DLL inside a process then invoking execution by creating a remote thread.\n* **Portable executable injection** involves writing malicious code directly into the process (without a file on disk) then invoking execution with either additional code or by creating a remote thread. The displacement of the injected code introduces the additional requirement for functionality to remap memory references. Variations of this method such as reflective DLL injection (writing a self-mapping DLL into a process) and memory module (map DLL when writing into process) overcome the address relocation issue. (Citation: Endgame HuntingNMemory June 2017)\n* **Thread execution hijacking** involves injecting malicious code or the path to a DLL into a thread of a process. Similar to [Process Hollowing](https://attack.mitre.org/techniques/T1093), the thread must first be suspended.\n* **Asynchronous Procedure Call** (APC) injection involves attaching malicious code to the APC Queue (Citation: Microsoft APC) of a process's thread. Queued APC functions are executed when the thread enters an alterable state. A variation of APC injection, dubbed \"Early Bird injection\", involves creating a suspended process in which malicious code can be written and executed before the process' entry point (and potentially subsequent anti-malware hooks) via an APC. (Citation: CyberBit Early Bird Apr 2018)  AtomBombing  (Citation: ENSIL AtomBombing Oct 2016) is another variation that utilizes APCs to invoke malicious code previously written to the global atom table. (Citation: Microsoft Atom Table)\n* **Thread Local Storage** (TLS) callback injection involves manipulating pointers inside a portable executable (PE) to redirect a process to malicious code before reaching the code's legitimate entry point. (Citation: FireEye TLS Nov 2017)\n\n### Mac and Linux\n\nImplementations for Linux and OS X/macOS systems include: (Citation: Datawire Code Injection) (Citation: Uninformed Needle)\n\n* **LD_PRELOAD, LD_LIBRARY_PATH** (Linux), **DYLD_INSERT_LIBRARIES** (Mac OS X) environment variables, or the dlfcn application programming interface (API) can be used to dynamically load a library (shared object) in a process which can be used to intercept API calls from the running process. (Citation: Phrack halfdead 1997)\n* **Ptrace system calls** can be used to attach to a running process and modify it in runtime. (Citation: Uninformed Needle)\n* **/proc/[pid]/mem** provides access to the memory of the process and can be used to read/write arbitrary data to it. This technique is very rare due to its complexity. (Citation: Uninformed Needle)\n* **VDSO hijacking** performs runtime injection on ELF binaries by manipulating code stubs mapped in from the linux-vdso.so shared object. (Citation: VDSO hijack 2009)\n\nMalware commonly utilizes process injection to access system resources through which Persistence and other environment modifications can be made. More sophisticated samples may perform multiple process injections to segment modules and further evade detection, utilizing named pipes or other inter-process communication (IPC) mechanisms as a communication channel.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1055",
+                    "external_id": "T1055"
+                },
+                {
+                    "source_name": "capec",
+                    "url": "https://capec.mitre.org/data/definitions/242.html",
+                    "external_id": "CAPEC-242"
+                },
+                {
+                    "source_name": "Powersploit",
+                    "description": "PowerSploit. (n.d.). Retrieved December 4, 2014.",
+                    "url": "https://github.com/mattifestation/PowerSploit"
+                },
+                {
+                    "source_name": "Endgame HuntingNMemory June 2017",
+                    "description": "Desimone, J. (2017, June 13). Hunting in Memory. Retrieved December 7, 2017.",
+                    "url": "https://www.endgame.com/blog/technical-blog/hunting-memory"
+                },
+                {
+                    "source_name": "Microsoft APC",
+                    "description": "Microsoft. (n.d.). Asynchronous Procedure Calls. Retrieved December 8, 2017.",
+                    "url": "https://msdn.microsoft.com/library/windows/desktop/ms681951.aspx"
+                },
+                {
+                    "source_name": "ENSIL AtomBombing Oct 2016",
+                    "description": "Liberman, T. (2016, October 27). ATOMBOMBING: BRAND NEW CODE INJECTION FOR WINDOWS. Retrieved December 8, 2017.",
+                    "url": "https://blog.ensilo.com/atombombing-brand-new-code-injection-for-windows"
+                },
+                {
+                    "source_name": "Microsoft Atom Table",
+                    "description": "Microsoft. (n.d.). About Atom Tables. Retrieved December 8, 2017.",
+                    "url": "https://msdn.microsoft.com/library/windows/desktop/ms649053.aspx"
+                },
+                {
+                    "source_name": "Microsoft Sysmon v6 May 2017",
+                    "description": "Russinovich, M. & Garnier, T. (2017, May 22). Sysmon v6.20. Retrieved December 13, 2017.",
+                    "url": "https://docs.microsoft.com/sysinternals/downloads/sysmon"
+                },
+                {
+                    "source_name": "FireEye TLS Nov 2017",
+                    "description": "Vaish, A. & Nemes, S. (2017, November 28). Newly Observed Ursnif Variant Employs Malicious TLS Callback Technique to Achieve Process Injection. Retrieved December 18, 2017.",
+                    "url": "https://www.fireeye.com/blog/threat-research/2017/11/ursnif-variant-malicious-tls-callback-technique.html"
+                },
+                {
+                    "source_name": "Datawire Code Injection",
+                    "description": "Turner-Trauring, I. (2017, April 18). \u201cThis will only hurt for a moment\u201d: code injection on Linux and macOS with LD_PRELOAD. Retrieved December 20, 2017.",
+                    "url": "https://www.datawire.io/code-injection-on-linux-and-macos/"
+                },
+                {
+                    "source_name": "Uninformed Needle",
+                    "description": "skape. (2003, January 19). Linux x86 run-time process manipulation. Retrieved December 20, 2017.",
+                    "url": "http://hick.org/code/skape/papers/needle.txt"
+                },
+                {
+                    "source_name": "Phrack halfdead 1997",
+                    "description": "halflife. (1997, September 1). Shared Library Redirection Techniques. Retrieved December 20, 2017.",
+                    "url": "http://phrack.org/issues/51/8.html"
+                },
+                {
+                    "source_name": "VDSO hijack 2009",
+                    "description": "O'Neill, R. (2009, May). Modern Day ELF Runtime infection via GOT poisoning. Retrieved December 20, 2017.",
+                    "url": "http://vxer.org/lib/vrn00.html"
+                },
+                {
+                    "source_name": "ArtOfMemoryForensics",
+                    "description": "Ligh, M.H. et al.. (2014, July). The Art of Memory Forensics: Detecting Malware and Threats in Windows, Linux, and Mac Memory. Retrieved December 20, 2017."
+                },
+                {
+                    "source_name": "GNU Acct",
+                    "description": "GNU. (2010, February 5). The GNU Accounting Utilities. Retrieved December 20, 2017.",
+                    "url": "https://www.gnu.org/software/acct/"
+                },
+                {
+                    "source_name": "RHEL auditd",
+                    "description": "Jahoda, M. et al.. (2017, March 14). redhat Security Guide - Chapter 7 - System Auditing. Retrieved December 20, 2017.",
+                    "url": "https://access.redhat.com/documentation/red_hat_enterprise_linux/6/html/security_guide/chap-system_auditing"
+                },
+                {
+                    "source_name": "Chokepoint preload rootkits",
+                    "description": "stderr. (2014, February 14). Detecting Userland Preload Rootkits. Retrieved December 20, 2017.",
+                    "url": "http://www.chokepoint.net/2014/02/detecting-userland-preload-rootkits.html"
+                },
+                {
+                    "source_name": "CyberBit Early Bird Apr 2018",
+                    "description": "Gavriel, H. & Erbesfeld, B. (2018, April 11). New \u2018Early Bird\u2019 Code Injection Technique Discovered. Retrieved May 24, 2018.",
+                    "url": "https://www.cyberbit.com/blog/endpoint-security/new-early-bird-code-injection-technique-discovered/"
+                },
+                {
+                    "source_name": "Endgame Process Injection July 2017",
+                    "description": "Hosseini, A. (2017, July 18). Ten Process Injection Techniques: A Technical Survey Of Common And Trending Process Injection Techniques. Retrieved December 7, 2017.",
+                    "url": "https://www.endgame.com/blog/technical-blog/ten-process-injection-techniques-technical-survey-common-and-trending-process"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--0573b498-41cd-4b96-9f04-e94606cc995e",
+            "created": "2019-11-08T16:45:17.435Z",
+            "modified": "2019-11-08T16:45:17.435Z",
+            "name": "Email Collection",
+            "description": "Adversaries may target user email to collect sensitive information from a target.\n\nFiles containing email data can be acquired from a user's system, such as Outlook storage or cache files .pst and .ost.\n\nAdversaries may leverage a user's credentials and interact directly with the Exchange server to acquire information from within a network.\n\nSome adversaries may acquire user credentials and access externally facing webmail applications, such as Outlook Web Access.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "collection"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1114",
+                    "external_id": "T1114"
+                }
+            ]
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--f8ebe3da-8523-46b3-84c9-b154a97210bb",
+            "created": "2019-11-08T16:45:17.435Z",
+            "modified": "2019-11-08T16:45:17.435Z",
+            "relationship_type": "uses",
+            "source_ref": "campaign--4d62235d-24e6-4df6-80d6-c4c837cf9017",
+            "target_ref": "attack-pattern--c20006cd-3e7b-4848-833f-7b97123341ac"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--e8cc7d0f-e51b-4c76-9c04-15a3dcea3df4",
+            "created": "2019-11-08T16:45:17.435Z",
+            "modified": "2019-11-08T16:45:17.435Z",
+            "relationship_type": "uses",
+            "source_ref": "campaign--4d62235d-24e6-4df6-80d6-c4c837cf9017",
+            "target_ref": "attack-pattern--760d772b-0ba9-4334-9fc8-c9df5ace4e5c"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--d5e71d19-99ce-4678-bf10-abc1ab950de5",
+            "created": "2019-11-08T16:45:17.435Z",
+            "modified": "2019-11-08T16:45:17.435Z",
+            "relationship_type": "uses",
+            "source_ref": "campaign--4d62235d-24e6-4df6-80d6-c4c837cf9017",
+            "target_ref": "attack-pattern--59ce3b8c-9939-4457-9e13-6457d6c7002a"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--0d4317ed-3607-4e15-8991-657f872a67b3",
+            "created": "2019-11-08T16:45:17.435Z",
+            "modified": "2019-11-08T16:45:17.435Z",
+            "relationship_type": "uses",
+            "source_ref": "campaign--4d62235d-24e6-4df6-80d6-c4c837cf9017",
+            "target_ref": "attack-pattern--a5dd7bd5-b683-4ca6-9a78-e0384490aebd"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--b5200b7b-8999-4e4e-bcc5-1a3621f346a7",
+            "created": "2019-11-08T16:45:17.435Z",
+            "modified": "2019-11-08T16:45:17.435Z",
+            "relationship_type": "uses",
+            "source_ref": "campaign--4d62235d-24e6-4df6-80d6-c4c837cf9017",
+            "target_ref": "attack-pattern--b9f6d3b9-1cfa-4116-8687-dc3ff5a0275e"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--9f941719-a5a3-4d95-a649-cb08eb248ccf",
+            "created": "2019-11-08T16:45:17.435Z",
+            "modified": "2019-11-08T16:45:17.435Z",
+            "relationship_type": "uses",
+            "source_ref": "campaign--4d62235d-24e6-4df6-80d6-c4c837cf9017",
+            "target_ref": "attack-pattern--986aca8c-40b7-4707-a0d5-59433ceb6e5f"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--8bd34f62-c1dc-4727-a44e-86f890ccecd4",
+            "created": "2019-11-08T16:45:17.436Z",
+            "modified": "2019-11-08T16:45:17.436Z",
+            "relationship_type": "uses",
+            "source_ref": "campaign--4d62235d-24e6-4df6-80d6-c4c837cf9017",
+            "target_ref": "attack-pattern--98a42fd7-915d-4fe0-99d1-500bfd006773"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--faaa6dc0-72c2-4840-8784-0828e70ab3db",
+            "created": "2019-11-08T16:45:17.436Z",
+            "modified": "2019-11-08T16:45:17.436Z",
+            "relationship_type": "uses",
+            "source_ref": "campaign--4d62235d-24e6-4df6-80d6-c4c837cf9017",
+            "target_ref": "attack-pattern--a5114018-1b48-4d0f-b780-27cb94319d7e"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--b4a3c7ef-4333-44f6-b99f-1d9359d25e92",
+            "created": "2019-11-08T16:45:17.436Z",
+            "modified": "2019-11-08T16:45:17.436Z",
+            "relationship_type": "uses",
+            "source_ref": "campaign--4d62235d-24e6-4df6-80d6-c4c837cf9017",
+            "target_ref": "attack-pattern--046bc11f-394f-4a4a-8166-3c41a8bfc5cf"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--382440cc-adf1-4e88-9e30-9a3036240e7a",
+            "created": "2019-11-08T16:45:17.436Z",
+            "modified": "2019-11-08T16:45:17.436Z",
+            "relationship_type": "uses",
+            "source_ref": "campaign--4d62235d-24e6-4df6-80d6-c4c837cf9017",
+            "target_ref": "attack-pattern--be360ce4-6bb5-4b19-b437-2d8088ab4c10"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--9349ea21-38e5-4e0b-9897-0a5077d20308",
+            "created": "2019-11-08T16:45:17.436Z",
+            "modified": "2019-11-08T16:45:17.436Z",
+            "relationship_type": "uses",
+            "source_ref": "campaign--4d62235d-24e6-4df6-80d6-c4c837cf9017",
+            "target_ref": "attack-pattern--bbfaacbb-2b36-4ef5-b679-49b061dd3c49"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--737ff229-3f26-44b8-8075-3bc3c540f818",
+            "created": "2019-11-08T16:45:17.436Z",
+            "modified": "2019-11-08T16:45:17.436Z",
+            "relationship_type": "uses",
+            "source_ref": "campaign--4d62235d-24e6-4df6-80d6-c4c837cf9017",
+            "target_ref": "attack-pattern--0573b498-41cd-4b96-9f04-e94606cc995e"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--8d04b5a3-2123-4e5b-9192-5f1028e1fa28",
+            "created": "2019-11-08T16:45:17.460Z",
+            "modified": "2019-11-08T16:45:17.460Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--80e3d80c-d8ac-406f-b595-9c8e18aa963e",
+            "target_ref": "attack-pattern--c20006cd-3e7b-4848-833f-7b97123341ac"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--13d77797-a7bf-430b-9d51-04b1f2612c22",
+            "created": "2019-11-08T16:45:17.460Z",
+            "modified": "2019-11-08T16:45:17.460Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--80e3d80c-d8ac-406f-b595-9c8e18aa963e",
+            "target_ref": "campaign--4d62235d-24e6-4df6-80d6-c4c837cf9017"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--4e4d22e0-786c-4dde-9aab-4a15957c6a3b",
+            "created": "2019-11-08T16:45:17.461Z",
+            "modified": "2019-11-08T16:45:17.461Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--f4e8b311-12eb-44cd-9a23-259243c2d1eb",
+            "target_ref": "attack-pattern--760d772b-0ba9-4334-9fc8-c9df5ace4e5c"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--ed83034c-b6b9-43bf-880f-aa37621e2ef2",
+            "created": "2019-11-08T16:45:17.461Z",
+            "modified": "2019-11-08T16:45:17.461Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--f4e8b311-12eb-44cd-9a23-259243c2d1eb",
+            "target_ref": "campaign--4d62235d-24e6-4df6-80d6-c4c837cf9017"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--ffcb3354-544d-4f1f-8248-08cb171fdd9b",
+            "created": "2019-11-08T16:45:17.464Z",
+            "modified": "2019-11-08T16:45:17.464Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--7bb92c59-797b-4280-830e-84f719a04503",
+            "target_ref": "attack-pattern--59ce3b8c-9939-4457-9e13-6457d6c7002a"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--668f8598-68be-4168-81cc-da36f61b2aed",
+            "created": "2019-11-08T16:45:17.465Z",
+            "modified": "2019-11-08T16:45:17.465Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--7bb92c59-797b-4280-830e-84f719a04503",
+            "target_ref": "campaign--4d62235d-24e6-4df6-80d6-c4c837cf9017"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--ec8d66a8-7e1e-4003-9714-cdb8c948d9aa",
+            "created": "2019-11-08T16:45:17.467Z",
+            "modified": "2019-11-08T16:45:17.467Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--fe72c434-2b93-4c6a-9e9b-a15a77a6d2a1",
+            "target_ref": "attack-pattern--a5dd7bd5-b683-4ca6-9a78-e0384490aebd"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--73267588-83b6-44fb-809e-f6a938bc131d",
+            "created": "2019-11-08T16:45:17.467Z",
+            "modified": "2019-11-08T16:45:17.467Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--fe72c434-2b93-4c6a-9e9b-a15a77a6d2a1",
+            "target_ref": "campaign--4d62235d-24e6-4df6-80d6-c4c837cf9017"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--d7b0095b-a58a-4759-b728-876712991a2c",
+            "created": "2019-11-08T16:45:17.468Z",
+            "modified": "2019-11-08T16:45:17.468Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--5de4b247-4878-439c-b482-dead4f18d542",
+            "target_ref": "attack-pattern--b9f6d3b9-1cfa-4116-8687-dc3ff5a0275e"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--d73e0877-bc11-4f4d-8bed-76746be4360c",
+            "created": "2019-11-08T16:45:17.468Z",
+            "modified": "2019-11-08T16:45:17.468Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--5de4b247-4878-439c-b482-dead4f18d542",
+            "target_ref": "campaign--4d62235d-24e6-4df6-80d6-c4c837cf9017"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--0b2f7249-6d90-465c-866f-0a7ba8eb10e2",
+            "created": "2019-11-08T16:45:17.470Z",
+            "modified": "2019-11-08T16:45:17.470Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--439e17fa-231f-47bc-a2d2-232f9eeff4df",
+            "target_ref": "attack-pattern--986aca8c-40b7-4707-a0d5-59433ceb6e5f"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--351a9266-a778-4ab3-96d8-9930d5b9428c",
+            "created": "2019-11-08T16:45:17.470Z",
+            "modified": "2019-11-08T16:45:17.470Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--439e17fa-231f-47bc-a2d2-232f9eeff4df",
+            "target_ref": "campaign--4d62235d-24e6-4df6-80d6-c4c837cf9017"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--4ba89ed8-78ca-4d94-a553-b63d16c0fb37",
+            "created": "2019-11-08T16:45:17.471Z",
+            "modified": "2019-11-08T16:45:17.471Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--308b8fe4-c4fa-49b3-ae1e-e87d73148190",
+            "target_ref": "attack-pattern--98a42fd7-915d-4fe0-99d1-500bfd006773"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--258da19f-9e2f-4161-9fac-9206d1f4f75d",
+            "created": "2019-11-08T16:45:17.472Z",
+            "modified": "2019-11-08T16:45:17.472Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--308b8fe4-c4fa-49b3-ae1e-e87d73148190",
+            "target_ref": "campaign--4d62235d-24e6-4df6-80d6-c4c837cf9017"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--b633f7c7-0cb0-495b-88dd-5c5224444039",
+            "created": "2019-11-08T16:45:17.474Z",
+            "modified": "2019-11-08T16:45:17.474Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--1b12a230-fa3e-426b-9b79-51f2010b27fe",
+            "target_ref": "attack-pattern--a5114018-1b48-4d0f-b780-27cb94319d7e"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--28a864a0-98c5-4312-be98-459c4af972b4",
+            "created": "2019-11-08T16:45:17.474Z",
+            "modified": "2019-11-08T16:45:17.474Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--1b12a230-fa3e-426b-9b79-51f2010b27fe",
+            "target_ref": "campaign--4d62235d-24e6-4df6-80d6-c4c837cf9017"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--d1826df5-66e3-436c-9e7f-2659c8c166d2",
+            "created": "2019-11-08T16:45:17.476Z",
+            "modified": "2019-11-08T16:45:17.476Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--8b82b686-d72b-491c-b71f-69dd0950f0ae",
+            "target_ref": "attack-pattern--046bc11f-394f-4a4a-8166-3c41a8bfc5cf"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--b60ba2de-fa78-4412-970a-eda5f33261d0",
+            "created": "2019-11-08T16:45:17.476Z",
+            "modified": "2019-11-08T16:45:17.476Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--8b82b686-d72b-491c-b71f-69dd0950f0ae",
+            "target_ref": "campaign--4d62235d-24e6-4df6-80d6-c4c837cf9017"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--7790e8e7-a5bd-46be-9582-4830f45287c5",
+            "created": "2019-11-08T16:45:17.478Z",
+            "modified": "2019-11-08T16:45:17.478Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--dcea8457-f22d-40c5-a709-c6dfe26ae75e",
+            "target_ref": "attack-pattern--be360ce4-6bb5-4b19-b437-2d8088ab4c10"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--11c17858-815a-4659-af1e-18b46491d187",
+            "created": "2019-11-08T16:45:17.478Z",
+            "modified": "2019-11-08T16:45:17.478Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--dcea8457-f22d-40c5-a709-c6dfe26ae75e",
+            "target_ref": "campaign--4d62235d-24e6-4df6-80d6-c4c837cf9017"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--8518477c-4df6-4c33-a125-9539913d1b29",
+            "created": "2019-11-08T16:45:17.479Z",
+            "modified": "2019-11-08T16:45:17.479Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--49700ba3-09df-436e-a4a1-43f8a83eb230",
+            "target_ref": "attack-pattern--bbfaacbb-2b36-4ef5-b679-49b061dd3c49"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--707e548e-8903-4c80-9fef-f27863e3d26a",
+            "created": "2019-11-08T16:45:17.479Z",
+            "modified": "2019-11-08T16:45:17.479Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--49700ba3-09df-436e-a4a1-43f8a83eb230",
+            "target_ref": "campaign--4d62235d-24e6-4df6-80d6-c4c837cf9017"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--911c89f2-0252-499e-b9fa-1de8d83a1b69",
+            "created": "2019-11-08T16:45:17.481Z",
+            "modified": "2019-11-08T16:45:17.481Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--e75572a5-ef1a-4468-bd31-7cb0cf2e5037",
+            "target_ref": "attack-pattern--0573b498-41cd-4b96-9f04-e94606cc995e"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--7aacc7e4-5b0c-49ed-873c-8fe199c91a0e",
+            "created": "2019-11-08T16:45:17.481Z",
+            "modified": "2019-11-08T16:45:17.481Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--e75572a5-ef1a-4468-bd31-7cb0cf2e5037",
+            "target_ref": "campaign--4d62235d-24e6-4df6-80d6-c4c837cf9017"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--1b2ebe9e-5f36-43bc-8886-f0c4ad410110",
+            "created": "2019-11-08T16:45:17.482Z",
+            "modified": "2019-11-08T16:45:17.482Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--486fd3e6-972a-4313-b258-c71cbcde9db2",
+            "target_ref": "attack-pattern--986aca8c-40b7-4707-a0d5-59433ceb6e5f"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--65a44a25-d196-44ff-bcf4-92be392b1efe",
+            "created": "2019-11-08T16:45:17.482Z",
+            "modified": "2019-11-08T16:45:17.482Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--486fd3e6-972a-4313-b258-c71cbcde9db2",
+            "target_ref": "campaign--4d62235d-24e6-4df6-80d6-c4c837cf9017"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--6806dbe7-4c00-4eaf-9ec4-f34955324fc4",
+            "created": "2019-11-08T16:45:17.484Z",
+            "modified": "2019-11-08T16:45:17.484Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--cfdd5902-eed2-460a-99dc-203c1105b69d",
+            "target_ref": "attack-pattern--b9f6d3b9-1cfa-4116-8687-dc3ff5a0275e"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--05d0f8ca-ca52-4493-8473-cd19b3a79ca8",
+            "created": "2019-11-08T16:45:17.484Z",
+            "modified": "2019-11-08T16:45:17.484Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--cfdd5902-eed2-460a-99dc-203c1105b69d",
+            "target_ref": "campaign--4d62235d-24e6-4df6-80d6-c4c837cf9017"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--f20c5c22-1ccb-4848-9687-64784c9e2386",
+            "created": "2019-11-08T16:45:17.485Z",
+            "modified": "2019-11-08T16:45:17.485Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--b91a99df-a69c-45e1-8114-43710d66f21a",
+            "target_ref": "attack-pattern--98a42fd7-915d-4fe0-99d1-500bfd006773"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--f80769ce-f840-4094-803a-4d8b61f50e24",
+            "created": "2019-11-08T16:45:17.485Z",
+            "modified": "2019-11-08T16:45:17.485Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--b91a99df-a69c-45e1-8114-43710d66f21a",
+            "target_ref": "campaign--4d62235d-24e6-4df6-80d6-c4c837cf9017"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--ee694b2d-c2dd-4a80-a2f8-8eb497d72a1a",
+            "created": "2019-11-08T16:45:17.486Z",
+            "modified": "2019-11-08T16:45:17.486Z",
+            "relationship_type": "attributed-to",
+            "source_ref": "campaign--4d62235d-24e6-4df6-80d6-c4c837cf9017",
+            "target_ref": "intrusion-set--e1b3091a-125f-4c53-82b7-955cacb904e6"
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--80e3d80c-d8ac-406f-b595-9c8e18aa963e",
+            "created": "2019-11-08T16:45:17.436Z",
+            "modified": "2019-11-08T16:45:17.436Z",
+            "name": "RE_10000848829_YVV_1004.doc",
+            "description": "[infected email reply]",
+            "pattern": "[file:hashes.sha256 = 'c58f07f84d6aae485416683e5515b39bc39349e69bc14629440e693da23d6c4d' AND file:file_extension ='doc']",
+            "valid_from": "2019-11-08T16:45:17.4366Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--f4e8b311-12eb-44cd-9a23-259243c2d1eb",
+            "created": "2019-11-08T16:45:17.460Z",
+            "modified": "2019-11-08T16:45:17.460Z",
+            "name": "RE_10000848829_YVV_1004.doc",
+            "description": "[launches obfuscated PowerShell command]",
+            "pattern": "[file:hashes.sha256 = 'c58f07f84d6aae485416683e5515b39bc39349e69bc14629440e693da23d6c4d' AND file:file_extension ='doc']",
+            "valid_from": "2019-11-08T16:45:17.46047Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--7bb92c59-797b-4280-830e-84f719a04503",
+            "created": "2019-11-08T16:45:17.462Z",
+            "modified": "2019-11-08T16:45:17.462Z",
+            "name": "RE_10000848829_YVV_1004.doc",
+            "description": "[user needs to launch attachment]",
+            "pattern": "[file:hashes.sha256 = 'c58f07f84d6aae485416683e5515b39bc39349e69bc14629440e693da23d6c4d' AND file:file_extension ='doc']",
+            "valid_from": "2019-11-08T16:45:17.4621Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--fe72c434-2b93-4c6a-9e9b-a15a77a6d2a1",
+            "created": "2019-11-08T16:45:17.465Z",
+            "modified": "2019-11-08T16:45:17.465Z",
+            "name": "RE_10000848829_YVV_1004.doc",
+            "description": "[uses malicious macro and PowerShell]",
+            "pattern": "[file:hashes.sha256 = 'c58f07f84d6aae485416683e5515b39bc39349e69bc14629440e693da23d6c4d' AND file:file_extension ='doc']",
+            "valid_from": "2019-11-08T16:45:17.465384Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--5de4b247-4878-439c-b482-dead4f18d542",
+            "created": "2019-11-08T16:45:17.467Z",
+            "modified": "2019-11-08T16:45:17.467Z",
+            "name": "RE_10000848829_YVV_1004.doc",
+            "description": "[downloads Emotet from C2 servers]",
+            "pattern": "[file:hashes.sha256 = 'c58f07f84d6aae485416683e5515b39bc39349e69bc14629440e693da23d6c4d' AND file:file_extension ='doc']",
+            "valid_from": "2019-11-08T16:45:17.467248Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--439e17fa-231f-47bc-a2d2-232f9eeff4df",
+            "created": "2019-11-08T16:45:17.468Z",
+            "modified": "2019-11-08T16:45:17.468Z",
+            "name": "RE_10000848829_YVV_1004.doc",
+            "description": "[TCP:80 (HTTP)]",
+            "pattern": "[file:hashes.sha256 = 'c58f07f84d6aae485416683e5515b39bc39349e69bc14629440e693da23d6c4d' AND file:file_extension ='doc']",
+            "valid_from": "2019-11-08T16:45:17.468809Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--308b8fe4-c4fa-49b3-ae1e-e87d73148190",
+            "created": "2019-11-08T16:45:17.470Z",
+            "modified": "2019-11-08T16:45:17.470Z",
+            "name": "RE_10000848829_YVV_1004.doc",
+            "description": "[HTTP]",
+            "pattern": "[file:hashes.sha256 = 'c58f07f84d6aae485416683e5515b39bc39349e69bc14629440e693da23d6c4d' AND file:file_extension ='doc']",
+            "valid_from": "2019-11-08T16:45:17.470438Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--1b12a230-fa3e-426b-9b79-51f2010b27fe",
+            "created": "2019-11-08T16:45:17.472Z",
+            "modified": "2019-11-08T16:45:17.472Z",
+            "name": "hanskds.exe",
+            "description": "[Emotet launched via custom \"hanskds\" service]",
+            "pattern": "[file:hashes.sha256 = '1D51D8E9AE1D67CB804FB28024B04969FD5888C3BEFECE09547E5506EE946027' AND file:file_extension ='exe']",
+            "valid_from": "2019-11-08T16:45:17.472248Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--8b82b686-d72b-491c-b71f-69dd0950f0ae",
+            "created": "2019-11-08T16:45:17.474Z",
+            "modified": "2019-11-08T16:45:17.474Z",
+            "name": "hanskds.exe",
+            "description": "[Emotet creates a new service named \"hanskds\"]",
+            "pattern": "[file:hashes.sha256 = '1D51D8E9AE1D67CB804FB28024B04969FD5888C3BEFECE09547E5506EE946027' AND file:file_extension ='exe']",
+            "valid_from": "2019-11-08T16:45:17.474826Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--dcea8457-f22d-40c5-a709-c6dfe26ae75e",
+            "created": "2019-11-08T16:45:17.476Z",
+            "modified": "2019-11-08T16:45:17.476Z",
+            "name": "hanskds.exe",
+            "description": "[May copy itself into the CSIDL_SYSTEM directory]",
+            "pattern": "[file:hashes.sha256 = '1D51D8E9AE1D67CB804FB28024B04969FD5888C3BEFECE09547E5506EE946027' AND file:file_extension ='exe']",
+            "valid_from": "2019-11-08T16:45:17.476431Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--49700ba3-09df-436e-a4a1-43f8a83eb230",
+            "created": "2019-11-08T16:45:17.478Z",
+            "modified": "2019-11-08T16:45:17.478Z",
+            "name": "hanskds.exe",
+            "description": "[Performs thread execution hijacking]",
+            "pattern": "[file:hashes.sha256 = '1D51D8E9AE1D67CB804FB28024B04969FD5888C3BEFECE09547E5506EE946027' AND file:file_extension ='exe']",
+            "valid_from": "2019-11-08T16:45:17.478259Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--e75572a5-ef1a-4468-bd31-7cb0cf2e5037",
+            "created": "2019-11-08T16:45:17.479Z",
+            "modified": "2019-11-08T16:45:17.479Z",
+            "name": "hanskds.exe",
+            "description": "[Scrapes email data]",
+            "pattern": "[file:hashes.sha256 = '1D51D8E9AE1D67CB804FB28024B04969FD5888C3BEFECE09547E5506EE946027' AND file:file_extension ='exe']",
+            "valid_from": "2019-11-08T16:45:17.479825Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--486fd3e6-972a-4313-b258-c71cbcde9db2",
+            "created": "2019-11-08T16:45:17.481Z",
+            "modified": "2019-11-08T16:45:17.481Z",
+            "name": "hanskds.exe",
+            "description": "[TCP:80 (HTTP)]",
+            "pattern": "[file:hashes.sha256 = '1D51D8E9AE1D67CB804FB28024B04969FD5888C3BEFECE09547E5506EE946027' AND file:file_extension ='exe']",
+            "valid_from": "2019-11-08T16:45:17.481388Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--cfdd5902-eed2-460a-99dc-203c1105b69d",
+            "created": "2019-11-08T16:45:17.482Z",
+            "modified": "2019-11-08T16:45:17.482Z",
+            "name": "hanskds.exe",
+            "description": "[May download Trickbot]",
+            "pattern": "[file:hashes.sha256 = '1D51D8E9AE1D67CB804FB28024B04969FD5888C3BEFECE09547E5506EE946027' AND file:file_extension ='exe']",
+            "valid_from": "2019-11-08T16:45:17.48295Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--b91a99df-a69c-45e1-8114-43710d66f21a",
+            "created": "2019-11-08T16:45:17.484Z",
+            "modified": "2019-11-08T16:45:17.484Z",
+            "name": "hanskds.exe",
+            "description": "[HTTP]",
+            "pattern": "[file:hashes.sha256 = '1D51D8E9AE1D67CB804FB28024B04969FD5888C3BEFECE09547E5506EE946027' AND file:file_extension ='exe']",
+            "valid_from": "2019-11-08T16:45:17.484451Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        }
+    ]
+}
